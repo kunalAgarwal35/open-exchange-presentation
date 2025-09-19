@@ -314,31 +314,36 @@ const JoveoSolutionPage = () => {
         </div>
       </div>
 
-      {/* Success Metrics */}
+      {/* Success Tracking */}
       <div className="mt-12 bg-gradient-to-r from-joveo-blue to-joveo-light-blue rounded-xl p-8 text-white">
-        <h3 className="text-2xl font-semibold text-center mb-8">Business Impact Metrics</h3>
+        <h3 className="text-2xl font-semibold text-center mb-8">Success Metrics We'll Track</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-2">75%</div>
-            <p className="text-blue-100">Of Joveo Business Flows Through Open Exchange</p>
+          <div className="text-center bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="text-3xl mb-3">📊</div>
+            <h4 className="text-lg font-semibold mb-2">Open Exchange Adoption</h4>
+            <p className="text-blue-100 text-sm">Percentage of Joveo business flowing through the Open Exchange platform</p>
           </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-2">4.8/5</div>
-            <p className="text-blue-100">Client Satisfaction Score</p>
+          <div className="text-center bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="text-3xl mb-3">⭐</div>
+            <h4 className="text-lg font-semibold mb-2">Client Satisfaction</h4>
+            <p className="text-blue-100 text-sm">Client satisfaction scores and Net Promoter Score (NPS)</p>
           </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-2">3x</div>
-            <p className="text-blue-100">Faster Campaign Launch Time</p>
+          <div className="text-center bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="text-3xl mb-3">⚡</div>
+            <h4 className="text-lg font-semibold mb-2">Campaign Launch Speed</h4>
+            <p className="text-blue-100 text-sm">Time from demand creation to first job feed activation</p>
           </div>
         </div>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="text-center">
-            <div className="text-3xl font-bold mb-2">92%</div>
-            <p className="text-blue-100">Publisher Retention Rate</p>
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="text-center bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="text-3xl mb-3">🤝</div>
+            <h4 className="text-lg font-semibold mb-2">Publisher Engagement</h4>
+            <p className="text-blue-100 text-sm">Publisher retention rates and active participation metrics</p>
           </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold mb-2">45%</div>
-            <p className="text-blue-100">Increase in Revenue per Campaign</p>
+          <div className="text-center bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="text-3xl mb-3">💰</div>
+            <h4 className="text-lg font-semibold mb-2">Revenue Impact</h4>
+            <p className="text-blue-100 text-sm">Revenue per campaign and overall business growth metrics</p>
           </div>
         </div>
       </div>
