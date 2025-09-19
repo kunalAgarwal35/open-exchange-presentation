@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .flow-node {
+    @apply bg-white rounded-lg shadow-lg p-4 border-2 border-gray-200 transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .flow-arrow {
+    @apply text-gray-400 text-2xl;
+  }
+  
+  .page-transition {
+    @apply transition-all duration-500 ease-in-out;
+  }
+}
